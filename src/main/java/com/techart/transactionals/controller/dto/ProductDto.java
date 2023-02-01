@@ -15,9 +15,8 @@ import java.math.BigDecimal;
 @AllArgsConstructor
 @Getter
 @Setter
-public class ProductAndCounterDto {
+public class ProductDto {
     private String productName;
     private BigDecimal productPrice;
-    private String counterName;
 
 }
